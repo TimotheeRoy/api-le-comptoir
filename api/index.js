@@ -5,8 +5,7 @@ const app = express();
 const cors = require("cors");
 
 const corsOptions = {
-    origin: ["https://le-comptoir-hnq0r702q-tiimooys-projects.vercel.app/"],
-    optionSuccesStatus: 200,
+    origin: false
 };
 
 app.use(cors(corsOptions));
