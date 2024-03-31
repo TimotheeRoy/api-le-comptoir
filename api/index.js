@@ -5,7 +5,7 @@ const app = express();
 const cors = require("cors");
 
 const corsOptions = {
-    origin: ["https://api-le-comptoir-fdeq6vcpp-tiimooys-projects.vercel.app/"],
+    origin: ["https://le-comptoir-l4ua644vk-tiimooys-projects.vercel.app/"],
     optionSuccesStatus: 200,
 };
 
